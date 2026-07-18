@@ -1,6 +1,6 @@
-Text-to-SQL Chatbot
+## Text-to-SQL Chatbot
 Ask questions about your database in plain English and get back the generated SQL query along with the result. Built with a FastAPI backend (LangChain + OpenAI) and a Streamlit frontend.
-How it works
+## How it works
 You type a question in the Streamlit UI (e.g. "What was the budget of Product 12?")
 The frontend sends it to the FastAPI backend
 The backend uses an OpenAI model (via LangChain) to convert the question into a SQL query, using your database schema as context
@@ -16,7 +16,7 @@ text_to_sql/
 ├── .env.example           # Template for environment variables
 └── README.md
 ```
-Setup
+## Setup
 1. Install dependencies
 ```bash
 pip install -r requirements.txt
