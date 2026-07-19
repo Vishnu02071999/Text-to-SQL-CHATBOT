@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-BACKEND_URL = "http://localhost:8000/query"
+BACKEND_URL = "https://text-to-sql-chatbot-prnv.onrender.com/query"  
 
 st.set_page_config(page_title="Text-to-SQL Chatbot", page_icon="🗄️")
 st.title("🗄️ Text-to-SQL Chatbot")
